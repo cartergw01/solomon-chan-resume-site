@@ -176,6 +176,8 @@ body.theme-light .theme-icon-sun {
   z-index: 2;
   width: var(--shell-width);
   margin: 0 auto;
+  display: grid;
+  justify-items: center;
   padding: 2.75rem 2.5rem 5rem;
 }
 
@@ -209,7 +211,9 @@ body.theme-light .theme-icon-sun {
 .hero {
   position: relative;
   display: grid;
+  justify-items: center;
   gap: 1.5rem;
+  width: 100%;
   padding: 2.5rem 0 1.6rem;
 }
 
@@ -269,23 +273,25 @@ body.theme-light .theme-icon-sun {
 .summary-block,
 .resume-section {
   display: grid;
+  justify-items: center;
   gap: 1rem;
 }
 
 .summary-block {
-  width: min(100%, 54rem);
-  margin: 0 auto;
+  width: 100%;
+  max-width: 54rem;
 }
 
 .section-title {
   width: fit-content;
-  margin: 0 auto;
+  justify-self: center;
   padding: 0 0.55rem;
   font-family: "Syne", sans-serif;
   font-size: clamp(1.02rem, 2vw, 1.22rem);
   letter-spacing: -0.03em;
   color: var(--text);
   background: linear-gradient(180deg, transparent 0%, transparent 40%, var(--bg-elevated) 40%, var(--bg-elevated) 100%);
+  text-align: center;
 }
 
 .summary-copy {
@@ -295,12 +301,14 @@ body.theme-light .theme-icon-sun {
 }
 
 .resume-section {
+  width: 100%;
   padding: 1.35rem 0 0;
 }
 
 .entry,
 .skills-grid {
   position: relative;
+  width: 100%;
   border-top: 1px solid var(--surface-line);
   border-bottom: 1px solid var(--surface-line);
 }
