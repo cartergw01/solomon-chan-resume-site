@@ -184,12 +184,12 @@ body.theme-light .theme-icon-sun {
 .top-links {
   display: inline-flex;
   justify-content: flex-end;
-  gap: 0.85rem;
+  gap: 1rem;
 }
 
 .icon-link {
-  width: 2rem;
-  height: 2rem;
+  width: 2.6rem;
+  height: 2.6rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -198,8 +198,8 @@ body.theme-light .theme-icon-sun {
 }
 
 .icon-link svg {
-  width: 1.15rem;
-  height: 1.15rem;
+  width: 1.45rem;
+  height: 1.45rem;
 }
 
 .icon-link:hover,
