@@ -98,6 +98,10 @@ li {
   opacity: 0.55;
 }
 
+body.theme-light .ambient-grid {
+  display: none;
+}
+
 .frame-rails {
   z-index: 1;
 }
